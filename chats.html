@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chats | Mint Talk</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/fa91ee9085.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="background">
+      <div class="status-bar">
+        <span class="time">13:53</span>
+        <div class="status-bar__icons">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="battery-%">99%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      <div class="chats">
+        <header>
+          <h1 class="title">Chats</h1>
+          <div class="header__icons">
+            <i class="fas fa-search"></i>
+            <i class="far fa-comment"></i>
+            <a href="settings.html" class="link__settings"
+              ><i class="fas fa-cog"></i
+            ></a>
+          </div>
+        </header>
+        <main>
+          <ul class="chats__list">
+            <li class="chat">
+              <a href="chat.html" class="link__chat">
+                <div class="chat_profile">
+                  <img src="img/profile.png" class="middle" />
+                  <div class="profile__info">
+                    <span class="profile__name">NICO</span>
+                    <span class="preview">See you sooon!</span>
+                  </div>
+                </div>
+                <span class="date">Yesterday</span>
+              </a>
+            </li>
+            <li class="chat">
+              <a href="chat.html" class="link__chat">
+                <div class="chat_profile">
+                  <img src="img/profile.png" class="middle" />
+                  <div class="profile__info">
+                    <span class="profile__name">JOHN</span>
+                    <span class="preview">Hello!</span>
+                  </div>
+                </div>
+                <span class="date">3 Minutes ago</span>
+              </a>
+            </li>
+          </ul>
+        </main>
+      </div>
+      <nav class="nav">
+        <ul class="nav__container">
+          <li class="nav__icon">
+            <a href="index.html" class="link__friends"
+              ><i class="far fa-user"></i
+            ></a>
+          </li>
+          <li class="nav__icon pick">
+            <a href="chats.html" class="link__chats">
+              <i class="fas fa-comment"></i><span class="chat__num">8</span>
+            </a>
+          </li>
+          <li class="nav__icon">
+            <a href="find.html" class="link__search">
+              <i class="fas fa-search"></i>
+            </a>
+          </li>
+          <li class="nav__icon">
+            <a href="more.html" class="link__more">
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="big-screen">
+      <span class="screen-guard">Please resize your screen small!!</span>
+    </div>
+  </body>
+</html>

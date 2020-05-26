@@ -1,0 +1,48 @@
+.nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  transform: translateY(80px);
+  animation: delay 0.5s ease-in-out 0.5s forwards;
+}
+
+.nav__container,
+.nav__icon,
+.nav__icon a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav__icon {
+  font-size: 25px;
+}
+
+.pick {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.link__chats {
+  position: relative;
+}
+
+.chat__num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 12px;
+  right: 50%;
+  transform: translate(18px, -5px);
+  font-size: 13px;
+  background-color: #65ebc3;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+}

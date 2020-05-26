@@ -1,0 +1,61 @@
+.profile__card,
+.friend__profile,
+.chat_profile,
+.link__chat,
+.plus-friend__profile,
+.friend-list__friend {
+  display: flex;
+  align-items: center;
+}
+.link__chat,
+.friend-list__friend {
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__name,
+.plus-friend__name {
+  font-size: 23px;
+}
+
+.profile__comment,
+.link__chat .date {
+  opacity: 0.8;
+  font-size: 13px;
+}
+
+.big {
+  height: 65px;
+  width: 65px;
+  margin-right: 12px;
+}
+
+/* --------------------------------------------------- */
+
+.middle {
+  width: 52px;
+  height: 52px;
+  margin-right: 12px;
+}
+
+/* --------------------------------------------------- */
+
+.small,
+.plus-friend__profile i {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+}
+
+/* ---------------------------------------------------- */
+
+.tiny {
+  width: 43px;
+  height: 43px;
+  margin-right: 12px;
+}

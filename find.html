@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find | Mint Talk</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/fa91ee9085.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="background">
+      <div class="status-bar">
+        <span class="time">13:53</span>
+        <div class="status-bar__icons">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="battery-%">99%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      <div class="find">
+        <header>
+          <h1 class="title">Find</h1>
+          <div class="header__icons">
+            <i class="fas fa-search"></i>
+            <a href="settings.html" class="link__settings"
+              ><i class="fas fa-cog"></i
+            ></a>
+          </div>
+        </header>
+        <main>
+          <ul class="find__list">
+            <li class="find__btn btn qr-code">
+              <i class="fas fa-qrcode"></i>
+              <span class="find__name">QR Code</span>
+            </li>
+            <li class="find__btn btn add-by">
+              <i class="far fa-address-book"></i>
+              <span class="find__name">Add by Contacts</span>
+            </li>
+            <li class="find__btn btn id">
+              <i class="far fa-address-card"></i>
+              <span class="find__name">Add by ID</span>
+            </li>
+            <li class="find__btn btn invite">
+              <i class="far fa-envelope"></i>
+              <span class="find__name">Invite</span>
+            </li>
+          </ul>
+          <div class="recommended-friends">
+            <h1 class="recommended_friends sub-title">Recommended Friends</h1>
+            <ul class="friend-list__list">
+              <li class="friend-list__friend">
+                <div class="friend__profile">
+                  <img src="img/profile.png" class="small" />
+                  <div class="profile__infos">
+                    <span class="profile__name">NICO</span>
+                  </div>
+                </div>
+                <div class="friend__add">
+                  <i class="fas fa-user-plus"></i>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </main>
+      </div>
+      <nav class="nav">
+        <ul class="nav__container">
+          <li class="nav__icon">
+            <a href="index.html" class="link__friends"
+              ><i class="far fa-user"></i
+            ></a>
+          </li>
+          <li class="nav__icon">
+            <a href="chats.html" class="link__chats">
+              <i class="far fa-comment"></i><span class="chat__num">8</span>
+            </a>
+          </li>
+          <li class="nav__icon pick">
+            <a href="find.html" class="link__search">
+              <i class="fas fa-search"></i>
+            </a>
+          </li>
+          <li class="nav__icon">
+            <a href="more.html" class="link__more">
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="big-screen">
+      <span class="screen-guard">Please resize your screen small!!</span>
+    </div>
+  </body>
+</html>

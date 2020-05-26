@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat | Mint Talk</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/fa91ee9085.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="chat__screen">
+    <div class="header__wrapper">
+      <div class="status-bar">
+        <span class="time">13:53</span>
+        <div class="status-bar__icons">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="battery-%">99%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      <header>
+        <div class="chat-header__left">
+          <a href="chats.html" class="link__cahts">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <h1 class="title">NICO</h1>
+        </div>
+        <div class="header__icons">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-bars"></i>
+        </div>
+      </header>
+    </div>
+    <div class="chat-bg"></div>
+    <main class="chat__room">
+      <div class="chat__display">
+        <span class="chat__date">Monday, May 25, 2020</span>
+        <ul class="chat__list">
+          <li class="message received">
+            <img src="img/profile.png" class="tiny" />
+            <div class="message__content">
+              <span class="chat__name">NICO</span>
+              <span class="chat__bubble">Congrats!</span>
+            </div>
+          </li>
+          <li class="message sent">
+            <div class="message__content">
+              <span class="chat__bubble">Thank you!</span>
+            </div>
+          </li>
+          <li class="message received">
+            <img src="img/profile.png" class="tiny" />
+            <div class="message__content">
+              <span class="chat__name">NICO</span>
+              <span class="chat__bubble">See you sooon!</span>
+            </div>
+          </li>
+        </ul>
+        <div class="nav__chat">
+          <input type="text" placeholder="Send message" class="chat__write" />
+          <div class="chat-icon__left chat-icon">
+            <i class="far fa-plus-square"></i>
+          </div>
+          <div class="chat-icon__right chat-icon">
+            <i class="far fa-smile-wink"></i>
+            <i class="fas fa-microphone-alt"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="big-screen">
+      <span class="screen-guard">Please resize your screen small</span>
+    </div>
+  </body>
+</html>

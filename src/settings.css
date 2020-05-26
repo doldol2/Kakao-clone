@@ -1,0 +1,30 @@
+.settings__list-1 i,
+.settings__list-2 i {
+  font-size: 22px;
+  width: 35px;
+}
+
+.settings__list-1 .settings__list.title,
+.settings__list-2 .settings__list.title {
+  font-size: 25px;
+}
+
+.settings__list-1 li,
+.settings__list-2 li {
+  margin-bottom: 30px;
+}
+
+.settings__list-1 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 30px;
+}
+
+.version {
+  display: flex;
+  justify-content: space-between;
+}
+
+.version__ver {
+  font-size: 20px;
+  opacity: 0.8;
+}
